@@ -1,4 +1,4 @@
-package com.sudeep.ai.azure.springai_chatcompletion;
+package com.sudeep.ai.azure.springai.chatcompletion;
 
 import java.util.List;
 
@@ -23,7 +23,7 @@ public class ChatController {
     }
 
     @GetMapping("/chat")
-    public String chat(@RequestParam String message) {
+    public String chat(@RequestParam("message") String message) {
     
         String simpleChatResponse = chatModel.call(message);
         return "Response to: " + simpleChatResponse;
