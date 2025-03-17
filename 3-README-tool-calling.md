@@ -3,4 +3,4 @@
 A sample code that demonstrates the ease of using Tool Calling functionality using Spring AI
 
 ## Additional Details
-A detailed description about this implementation can be found [here](https://smoothed9.medium.com/retrieval-augmented-generation-rag-with-spring-ai-a68bc0c57fcc)
+A detailed description about this implementation can be found [here](https://smoothed9.medium.com/tool-calling-with-spring-ai-3201017b14a1)
